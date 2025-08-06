@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manuales de Mantenimiento</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo empresa" />
+    <h1>Manuales de Mantenimiento</h1>
+  </header>
+
+  <div class="linea-roja"></div>
+
+  <section class="busqueda">
+    <div class="barra-busqueda">
+      <i class="fas fa-search"></i>
+      <input
+        type="text"
+        id="buscador"
+        placeholder="Busque su manual con el no. serie..."
+        oninput="buscarManual()"
+      />
+      <button class="boton-borrar" onclick="limpiarBusqueda()" aria-label="Borrar búsqueda">X</button>
+    </div>
+  </section>
+
+  <section id="resultados" class="resultados"></section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
