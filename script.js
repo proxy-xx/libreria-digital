@@ -33,6 +33,11 @@ const manuales = [
     numeroSerie: "r4ic1",
     nombre: "manual de uso soldadora-r4ic1.pdf",
     url: "https://drive.google.com/file/d/1yN7Z3ZMLv_nbF9TxdVE-AoPCE1sx9U6X/view"
+  },
+   {
+    numeroSerie: "simb1234",
+    nombre: "manual de simbolos simb1234.pdf",
+    url: "https://drive.google.com/drive/folders/12SvPRwNHSoaYe1L_CzrFHPYUcLnzsuPR?usp=drive_link"
   }
 ];
 
@@ -72,3 +77,4 @@ function limpiarBusqueda() {
   document.getElementById("buscador").value = "";
   document.getElementById("resultados").innerHTML = "";
 }
+
